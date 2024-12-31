@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.HeaderDiv {
+    display: flex;
+    max-width: 100%;
+    padding: 22px 208px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 96px;
+}
+
+.HeaderBar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.MenuBar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ArrowDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.Buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.LoginDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.LoginDiv button {
+    border: none;
+    font-size: 14px;
+    color: #414651;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    padding: 10px 14px;
+}
+
+.SignDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.SignDiv button {
+    border-radius: 8px;
+    background: #7F56D9;
+    display: flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.FeaturesDiv {
+    display: flex;
+    width: 1024px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    margin-bottom: 96px;
+}
+
+.TitleDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.FirstDiv {
+    display: flex;
+    padding: 8px 12px 8px 8px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+
+.NewFeatureDiv {
+    display: flex;
+    padding: 4px 8px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+
+.CheckDiv {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.CheckDiv p {
+    color: #414651;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.TitleDiv h1 {
+    color: #181D27;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.ParagraphDiv p {
+    max-width: 768px;
+    color: #535862;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.DemoButtonsDiv {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.Demo {
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    color: #414651;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.UpButton {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #7F56D9;
+    border: none;
+}
+
+.BigPictureDiv {
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 96px;
+}
+
+.analyticsDiv {
+    display: flex;
+    width: 1024px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 0 auto;
+    margin-bottom: 96px;
+}
+
+.ThreeDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.PDiv p {
+    color: #6941C6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.HtwoDiv {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.PaDiv {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.TeamsDiv {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+
+.GappingDiv {
+    display: flex;
+    max-width: 320px;
+    padding: 12px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+}
+
+.inboxesDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.inboxesDiv h3 {
+    color: #181D27;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.inboxesDiv p {
+    color: #535862;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.OffersDiv {
+    display: flex;
+    width: 1024px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+    margin-bottom: 96px;
+}
+
+.UpgradeThreeDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.DollarMainRow {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.DollarColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+
+.TitleDolar {
+    display: flex;
+    padding: 32px 32px 0px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.BasicDiv p {
+    color: #6941C6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.mthDiv h3 {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.BilledDiv span {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Mainnn {
+    display: flex;
+    max-width: 496px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.BlueDiv {
+    display: flex;
+    width: 1024px;
+    height: 566px;
+    /* unda wavshalo  */
+    align-items: center;
+    border-radius: 24px;
+    background: #53389E;
+    margin: 0 auto;
+    margin-bottom: 96px;
+}
+
+
+.BlueThree {
+    display: flex;
+    max-width: 544px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    padding: 64px;
+    flex: 1 0 0;
+}
+
+.LoveDiv p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.PandSpan span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.PandSpan p {
+    color: #E9D7FE;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.womanDiv {
+    width: 480px;
+    min-height: 448px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.womanDiv img {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.FooterDiv {
+    display: flex;
+    width: 100%;
+    padding: 24px 208px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.Footerbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.FotterBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.FotterBar p {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.Lastttttttt {
+    color: #717680;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
